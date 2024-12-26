@@ -1,0 +1,17 @@
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .footer .social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+  }

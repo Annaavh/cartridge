@@ -1,0 +1,20 @@
+.phone-number {
+    font-size: 2rem;
+    color: #DB0039;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+@media (max-width: 968px) {
+    .header .phone-numbers {
+        display: none;
+    }
+
+    .hero .phone-numbers {
+        display: block;
+    }
+
+    .hero .phone {
+        display: block;
+    }
+}
