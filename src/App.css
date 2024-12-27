@@ -91,12 +91,11 @@ html {
 
 @media (max-width: 800px) {
   .hero {
-    height: 50vh;
+    height: 50vh !important;
   }
 
   .welcome-text {
-    margin: 0;
-    font-size: 1rem !important;
+    margin: 0 !important;
   }
 
   .welcome h2,
@@ -107,28 +106,28 @@ html {
 
   .benefit-text h3,
   .services p {
-    font-size: 1.2rem;
+    font-size: 1rem !important;
   }
 
   .benefitIcon-container {
-    min-width: 50px;
-    width: 50px;
-    height: 50px;
+    min-width: 45px !important;
+    width: 45px !important;
+    height: 45px !important;
   }
 
   .benefit i {
-    font-size: 1.5rem;
+    font-size: 1.4rem !important;
   }
 
   .welcome,
   .services,
   .why-choose-us {
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 !important;
   }
 }
 
 @media (max-width:1270px) {
   .logo .divOverLogo {
-    width: 300px;
+    width: 300px !important;
   }
 }

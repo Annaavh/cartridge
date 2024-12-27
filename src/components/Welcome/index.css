@@ -38,22 +38,24 @@
   }
   
   .welcome-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #333;
     margin-bottom: 1.2rem;
     line-height: 1.6;
   }
   
   .welcome-image {
-    max-width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .welcome-image {
-    width: 100%;
+    width: auto;
     height: 300px;
     object-fit: cover;
     float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 480px) {
+    .welcome-image {
+      width: 100% !important;
+      float: unset !important;
+    }
   }
