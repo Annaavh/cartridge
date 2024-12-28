@@ -18,3 +18,9 @@
         display: block;
     }
 }
+
+@media (max-width: 440px) {
+    .contact-info .phone-numbers {
+        display: grid;
+    }
+}
