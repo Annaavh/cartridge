@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
                     { icon: "fa-solid fa-dollar-sign", text: "Մատչելի գներ" },
                     { icon: "fa-regular fa-handshake", text: "Հուսալի և վստահելի" },
                     { icon: "fa-solid fa-award", text: "Կատարված աշխատանքին տալիս ենք երաշխիք" },
-                    { icon: "fa-solid fa-truck", text: "Երևանի տարածքում առաքումը անվճար" },
+                    // { icon: "fa-solid fa-truck", text: "Երևանի տարածքում առաքումը անվճար" },
                     { icon: "fa-solid fa-tools", text: "Սպասարկումը կատարվում է որակյալ նյութերով և մասերով" }
                 ].map((benefit, index) => (
                     <div className="benefit" key={index}>

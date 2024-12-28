@@ -16,7 +16,7 @@
   }
   
   .welcome h2 span {
-    color: #DB0039;
+    color: #FF0000;
   }
   
   .welcome h2::after {
@@ -24,7 +24,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #DB0039;
+    background: #FF0000;
     transition: width 0.3s ease-in-out;
     margin-top: 5px;
   }
@@ -44,18 +44,18 @@
     line-height: 1.6;
   }
   
-  .welcome-image {
+  /* .welcome-image {
     width: auto;
     height: 300px;
     object-fit: cover;
     float: right;
     margin-left: 5px;
     margin-bottom: 5px;
-  }
+  } */
 
   @media (max-width: 480px) {
-    .welcome-image {
+    /* .welcome-image {
       width: 100% !important;
       float: unset !important;
-    }
+    } */
   }

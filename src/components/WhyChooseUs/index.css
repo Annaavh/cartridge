@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #DB0039;
+    border: 2px solid #FF0000;
     background: white;
     border-radius: 50%;
     font-size: 2rem;
@@ -65,7 +65,7 @@
   
   .benefit i {
     font-size: 2rem;
-    color: #DB0039;
+    color: #FF0000;
   }
   
   .benefit-text h3 {

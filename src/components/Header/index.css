@@ -30,7 +30,7 @@
   }
   
   .phone i {
-    color: #DB0039;
+    color: #FF0000;
   }
   
   .hero {
@@ -59,7 +59,11 @@
     margin: 0;
     padding: 0;
     padding-top: 32px;
+    /* background: rgba(255, 255, 255, 0.5); */
   }
+  /* .nav-links.fixed-nav{
+    background-color: white;
+  } */
   
   .nav-links a {
     text-decoration: none;
@@ -76,13 +80,13 @@
     display: block;
     width: 0;
     height: 1px;
-    background: #DB0039;
+    background: #FF0000;
     transition: width 0.3s ease-in-out;
     margin-top: 5px;
   }
   
   .nav-links a:hover {
-    color: #db0039;
+    color: #FF0000;
   
   }
   
@@ -154,8 +158,11 @@
     .nav-links {
       display: none;
       gap: 1rem;
+      background: rgba(255, 255, 255, 0.5)!important;
     }
-  
+    .nav-links.fixed-nav{
+      background-color: white!important;
+    }
     .nav-links a {
       font-size: 1rem;
     }

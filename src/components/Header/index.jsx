@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import React, { useState, useEffect } from "react";
 import useWindowScroll from "../../hooks/useWindowScroll";
 import useWindowSize from "../../hooks/useWindowSize";
-import animationData from "../../SVG Animation.json";
+import animationData from "../../SVGAnimation.json";
 import PhoneNumbers from "../PhoneNumbers/index.jsx";
 
 
@@ -40,7 +40,8 @@ const Header = () => {
         <header className={`header ${isFixed ? "fixed" : ""}`}>
             <div className="container">
                 <nav className="navbar">
-                    <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+                    <ul className={`nav-links ${menuOpen ? "open" : ""} ${isFixed ? "fixed-nav" : ""
+                        }`}>
                         {
                             [
                                 { id: "#about-us", text: "Մեր մասին" },

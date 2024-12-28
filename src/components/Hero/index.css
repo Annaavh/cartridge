@@ -1,8 +1,8 @@
 .hero {
-    background: url('../../../public/cartridge10.jpg') no-repeat center center/cover;
+    background: url('../../../public/cartridge2.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +16,18 @@
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1300px) {
+    .hero {
+        background: url('../../../public/cartridge1.jpg') no-repeat center center/cover;
+        background-position: right;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero {
+      max-height: 333px;
+      height: 50vh !important;
+    }
 }

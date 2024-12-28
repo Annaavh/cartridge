@@ -60,8 +60,11 @@ html {
   .nav-links {
     display: none;
     gap: 1rem;
+    animation: fadeInDown 1s ease;
+    transition: all 0.5s!important;
   }
 
+  
   .nav-links a {
     font-size: 1rem;
   }
@@ -90,10 +93,6 @@ html {
 }
 
 @media (max-width: 800px) {
-  .hero {
-    height: 50vh !important;
-  }
-
   .welcome-text {
     margin: 0 !important;
   }
