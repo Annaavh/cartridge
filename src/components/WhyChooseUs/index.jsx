@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
                 ].map((benefit, index) => (
                     <div className="benefit" key={index}>
                         <div className="benefitIcon-container">
-                            <i class={benefit.icon}></i>
+                            <i className={benefit.icon}></i>
                         </div>
 
                         <div className="benefit-text">

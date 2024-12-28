@@ -15,7 +15,7 @@ const Services = () => {
                     ].map((service, index) => (
                         <div className="service" key={index}>
                             <div className="icon-container">
-                                <i class="fa-regular fa-circle-check"></i>
+                                <i className="fa-regular fa-circle-check"></i>
                             </div>
                             <p>{service.text}</p>
                         </div>
