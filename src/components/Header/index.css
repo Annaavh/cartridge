@@ -115,7 +115,7 @@
   
   .menu-bar {
     width: 25px;
-    height: 3px;
+    height: 2px;
     background: #333;
     transition: transform 0.3s ease;
   }
@@ -136,7 +136,7 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 53px;
+    top: 50px;
     left: 0;
     width: 100vw;
     background: white;
