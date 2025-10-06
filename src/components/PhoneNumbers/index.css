@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 570px) {
     .contact-info .phone-numbers {
         display: grid;
     }

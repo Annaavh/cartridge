@@ -13,6 +13,19 @@ html {
   margin: 0 auto;
 }
 
+.header .phone-numbers {
+  width: 338px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.header .phone-numbers .phone:nth-last-child(1) {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+
 /* Animations */
 @keyframes fadeInDown {
   from {
@@ -61,10 +74,10 @@ html {
     display: none;
     gap: 1rem;
     animation: fadeInDown 1s ease;
-    transition: all 0.5s!important;
+    transition: all 0.5s !important;
   }
 
-  
+
   .nav-links a {
     font-size: 1rem;
   }
@@ -88,6 +101,7 @@ html {
   }
 
   .hero .phone {
+    text-align: right;
     display: block;
   }
 }
